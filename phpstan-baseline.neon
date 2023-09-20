@@ -1,0 +1,146 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot access offset 'avatar' on mixed\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Cannot access offset 'data' on mixed\\.$#"
+			count: 6
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Cannot access offset 'email' on mixed\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Cannot access offset 'first_name' on mixed\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Cannot access offset 'id' on mixed\\.$#"
+			count: 2
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Cannot access offset 'last_name' on mixed\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Cannot access offset 'page' on mixed\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Cannot access offset 'per_page' on mixed\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Cannot access offset 'total' on mixed\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Cannot access offset 'total_pages' on mixed\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#1 \\$id of class App\\\\DTO\\\\CreatedUser constructor expects int, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#1 \\$id of class App\\\\DTO\\\\User constructor expects int, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#1 \\$users of class App\\\\DTO\\\\PaginatedUser constructor expects array\\<App\\\\DTO\\\\User\\>, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#2 \\$email of class App\\\\DTO\\\\User constructor expects string, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#2 \\$page of class App\\\\DTO\\\\PaginatedUser constructor expects int, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#3 \\$firstName of class App\\\\DTO\\\\User constructor expects string, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#3 \\$total of class App\\\\DTO\\\\PaginatedUser constructor expects int, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#4 \\$lastName of class App\\\\DTO\\\\User constructor expects string, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#4 \\$perPage of class App\\\\DTO\\\\PaginatedUser constructor expects int, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#5 \\$avatar of class App\\\\DTO\\\\User constructor expects string, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Parameter \\#5 \\$totalPages of class App\\\\DTO\\\\PaginatedUser constructor expects int, mixed given\\.$#"
+			count: 1
+			path: src/UserApiClient.php
+
+		-
+			message: "#^Cannot access offset 'avatar' on App\\\\DTO\\\\User\\.$#"
+			count: 2
+			path: tests/unit/UserApiClientTest.php
+
+		-
+			message: "#^Cannot access offset 'email' on App\\\\DTO\\\\User\\.$#"
+			count: 2
+			path: tests/unit/UserApiClientTest.php
+
+		-
+			message: "#^Cannot access offset 'first_name' on App\\\\DTO\\\\User\\.$#"
+			count: 2
+			path: tests/unit/UserApiClientTest.php
+
+		-
+			message: "#^Cannot access offset 'id' on App\\\\DTO\\\\User\\.$#"
+			count: 2
+			path: tests/unit/UserApiClientTest.php
+
+		-
+			message: "#^Cannot access offset 'last_name' on App\\\\DTO\\\\User\\.$#"
+			count: 2
+			path: tests/unit/UserApiClientTest.php
+
+		-
+			message: "#^Cannot access offset 0 on array\\<App\\\\DTO\\\\User\\>\\|int\\.$#"
+			count: 5
+			path: tests/unit/UserApiClientTest.php
+
+		-
+			message: "#^Cannot access offset 1 on array\\<App\\\\DTO\\\\User\\>\\|int\\.$#"
+			count: 5
+			path: tests/unit/UserApiClientTest.php
+
+		-
+			message: "#^Parameter \\#3 \\$body of class GuzzleHttp\\\\Psr7\\\\Response constructor expects Psr\\\\Http\\\\Message\\\\StreamInterface\\|resource\\|string\\|null, string\\|false given\\.$#"
+			count: 3
+			path: tests/unit/UserApiClientTest.php
